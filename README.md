@@ -1,2 +1,2 @@
-# my-project---client-side
+# my-project-client-side
 for weather app client side pages
