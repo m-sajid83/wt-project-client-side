@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherApp - Home</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">WeatherApp</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="search.html">Search</a></li>
+          <li class="nav-item"><a class="nav-link" href="map.html">Map</a></li>
+          <li class="nav-item"><a class="nav-link" href="settings.html">Settings</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+          <li class="nav-item"><a class="nav-link" href="more.html">More</a></li>
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="flex-fill d-flex flex-column align-items-center justify-content-start text-center py-4">
+    <!-- Heading -->
+    <h1 class="mb-2">Weather Across India</h1>
+    <p class="lead mb-4">Get real-time weather updates for your favorite cities.</p>
+
+    <!-- Weather Dashboard -->
+    <div class="popular-cities d-flex flex-wrap justify-content-center gap-3 mb-5">
+      <div class="card p-3 text-center" style="width: 180px;">
+        <i class="bi bi-cloud-sun fs-2 text-primary"></i>
+        <h6 class="mt-2">Mumbai</h6>
+        <p>32°C, Sunny</p>
+      </div>
+      <div class="card p-3 text-center" style="width: 180px;">
+        <i class="bi bi-sun fs-2 text-warning"></i>
+        <h6 class="mt-2">Delhi</h6>
+        <p>35°C, Sunny</p>
+      </div>
+      <div class="card p-3 text-center" style="width: 180px;">
+        <i class="bi bi-cloud-rain fs-2 text-info"></i>
+        <h6 class="mt-2">Kolkata</h6>
+        <p>30°C, Rainy</p>
+      </div>
+      <div class="card p-3 text-center" style="width: 180px;">
+        <i class="bi bi-cloud-snow fs-2 text-secondary"></i>
+        <h6 class="mt-2">Shimla</h6>
+        <p>10°C, Snow</p>
+      </div>
+      <div class="card p-3 text-center" style="width: 180px;">
+        <i class="bi bi-cloud fs-2 text-muted"></i>
+        <h6 class="mt-2">Chennai</h6>
+        <p>34°C, Cloudy</p>
+      </div>
+    </div>
+    
+
+    <!-- App Features -->
+    <h2 class="mb-3">App Features</h2>
+    <div class="features d-flex justify-content-center flex-wrap gap-3">
+      <div class="feature-item">
+        <i class="bi bi-cloud-sun fs-1 text-primary"></i>
+        <h5 class="mt-2">Real-Time Updates</h5>
+        <p>Stay informed with accurate and instant weather forecasts.</p>
+      </div>
+      <div class="feature-item">
+        <i class="bi bi-geo-alt fs-1 text-danger"></i>
+        <h5 class="mt-2">Interactive Map</h5>
+        <p>Explore weather conditions across India with our live map.</p>
+      </div>
+      <div class="feature-item">
+        <i class="bi bi-search fs-1 text-success"></i>
+        <h5 class="mt-2">Quick Search</h5>
+        <p>Find weather information for any Indian city in seconds.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light pt-3 mt-auto">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>WeatherApp</h5>
+          <p>Your reliable source for real-time weather updates across India.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-light">Home</a></li>
+            <li><a href="search.html" class="text-light">Search</a></li>
+            <li><a href="map.html" class="text-light">Map</a></li>
+            <li><a href="settings.html" class="text-light">Settings</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact</h5>
+          <p>Email: support@weatherapp.com</p>
+          <p>Phone: +91 98765 43210</p>
+        </div>
+      </div>
+      <div class="text-center py-2 border-top mt-2">
+        &copy; 2025 WeatherApp. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
